@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [scripts.CarvanaTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="scripts.CarvanaTest">
+        <methods>
+          <include name="testLogo"/>
+          <include name="testMainNavSectionItems"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="testSearchResultTiles"/>
+          <include name="testTitleAndUrl"/>
+          <include name="testSearchFilterOptions"/>
+          <include name="testSignInErrorMessage"/>
+          <include name="setupPages"/>
+        </methods>
+      </class> <!-- scripts.CarvanaTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [scripts.CarvanaTest] -->
