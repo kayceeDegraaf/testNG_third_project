@@ -10,7 +10,6 @@
           <include name="setup"/>
           <include name="teardown"/>
           <include name="testSearchResultTiles"/>
-          <include name="testTitleAndUrl"/>
           <include name="testSearchFilterOptions"/>
           <include name="testSignInErrorMessage"/>
           <include name="setupPages"/>

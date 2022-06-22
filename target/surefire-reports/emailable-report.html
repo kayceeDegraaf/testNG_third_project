@@ -9,75 +9,95 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">scripts.CarvanaTest</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num attn">6</td><td class="num">0</td><td class="num">0</td><td class="num">18,097</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">45,940</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">scripts.CarvanaTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="7">scripts.CarvanaTest</td><td><a href="#m0">setup</a></td><td rowspan="6">1655921783708</td><td rowspan="6">0</td></tr><tr class="failedeven"><td><a href="#m1">setup</a></td></tr><tr class="failedeven"><td><a href="#m2">setup</a></td></tr><tr class="failedeven"><td><a href="#m3">setup</a></td></tr><tr class="failedeven"><td><a href="#m4">setup</a></td></tr><tr class="failedeven"><td><a href="#m5">setup</a></td></tr><tr class="failedeven"><td><a href="#m6">setupPages</a></td><td rowspan="1">1655921783681</td><td rowspan="1">15</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="6">scripts.CarvanaTest</td><td><a href="#m7">testLogo</a></td><td rowspan="1">1655921786722</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">testMainNavSectionItems</a></td><td rowspan="1">1655921789727</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m9">testSearchFilterOptions</a></td><td rowspan="1">1655921795753</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m10">testSearchResultTiles</a></td><td rowspan="1">1655921798757</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m11">testSignInErrorMessage</a></td><td rowspan="1">1655921792740</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m12">testTitleAndUrl</a></td><td rowspan="1">1655921783711</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">scripts.CarvanaTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">scripts.CarvanaTest</td><td><a href="#m0">testLogo</a></td><td rowspan="1">1655924590640</td><td rowspan="1">8</td></tr><tr class="failedeven"><td><a href="#m1">testMainNavSectionItems</a></td><td rowspan="1">1655924597226</td><td rowspan="1">3007</td></tr><tr class="failedeven"><td><a href="#m2">testSearchFilterOptions</a></td><td rowspan="1">1655924613182</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m3">testSearchResultTiles</a></td><td rowspan="1">1655924619459</td><td rowspan="1">3015</td></tr><tr class="failedeven"><td><a href="#m4">testSignInErrorMessage</a></td><td rowspan="1">1655924606907</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">scripts.CarvanaTest</td><td><a href="#m5">testTitleAndUrl</a></td><td rowspan="1">1655924584122</td><td rowspan="1">22</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">scripts.CarvanaTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null
-	at utilities.Driver.getDriver(Driver.java:32)
-	at scripts.Base.setup(Base.java:14)
+<h2>Command line test</h2><h3 id="m0">scripts.CarvanaTest#testLogo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KAYCEES-YOGA&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.isDisplayed(Unknown Source)
+	at scripts.CarvanaTest.testLogo(CarvanaTest.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">scripts.CarvanaTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null
-	at utilities.Driver.getDriver(Driver.java:32)
-	at scripts.Base.setup(Base.java:14)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">scripts.CarvanaTest#testMainNavSectionItems</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KAYCEES-YOGA&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.get(Unknown Source)
+	at scripts.CarvanaTest.testMainNavSectionItems(CarvanaTest.java:44)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">scripts.CarvanaTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null
-	at utilities.Driver.getDriver(Driver.java:32)
-	at scripts.Base.setup(Base.java:14)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">scripts.CarvanaTest#testSearchFilterOptions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KAYCEES-YOGA&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+	at scripts.CarvanaTest.testSearchFilterOptions(CarvanaTest.java:64)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">scripts.CarvanaTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null
-	at utilities.Driver.getDriver(Driver.java:32)
-	at scripts.Base.setup(Base.java:14)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">scripts.CarvanaTest#testSearchResultTiles</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KAYCEES-YOGA&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+	at scripts.CarvanaTest.testSearchResultTiles(CarvanaTest.java:82)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">scripts.CarvanaTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null
-	at utilities.Driver.getDriver(Driver.java:32)
-	at scripts.Base.setup(Base.java:14)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">scripts.CarvanaTest#testSignInErrorMessage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KAYCEES-YOGA&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+	at scripts.CarvanaTest.testSignInErrorMessage(CarvanaTest.java:52)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">scripts.CarvanaTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null
-	at utilities.Driver.getDriver(Driver.java:32)
-	at scripts.Base.setup(Base.java:14)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">scripts.CarvanaTest#setupPages</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null
-	at utilities.Driver.getDriver(Driver.java:32)
-	at pages.CarvanaHomePage.&lt;init&gt;(CarvanaHomePage.java:12)
-	at scripts.CarvanaTest.setupPages(CarvanaTest.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">scripts.CarvanaTest#testLogo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null
-	at utilities.Driver.getDriver(Driver.java:32)
-	at scripts.Base.setup(Base.java:14)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">scripts.CarvanaTest#testMainNavSectionItems</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null
-	at utilities.Driver.getDriver(Driver.java:32)
-	at scripts.Base.setup(Base.java:14)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">scripts.CarvanaTest#testSearchFilterOptions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null
-	at utilities.Driver.getDriver(Driver.java:32)
-	at scripts.Base.setup(Base.java:14)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">scripts.CarvanaTest#testSearchResultTiles</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null
-	at utilities.Driver.getDriver(Driver.java:32)
-	at scripts.Base.setup(Base.java:14)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">scripts.CarvanaTest#testSignInErrorMessage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null
-	at utilities.Driver.getDriver(Driver.java:32)
-	at scripts.Base.setup(Base.java:14)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">scripts.CarvanaTest#testTitleAndUrl</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local0&gt;&quot; is null
-	at utilities.Driver.getDriver(Driver.java:32)
-	at scripts.Base.setup(Base.java:14)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">scripts.CarvanaTest#testTitleAndUrl</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

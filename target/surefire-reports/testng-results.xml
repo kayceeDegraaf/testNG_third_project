@@ -1,254 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
+<testng-results ignored="0" total="6" passed="1" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-22T13:16:23 CDT" name="scripts.CarvanaTest" finished-at="2022-06-22T13:16:41 CDT" duration-ms="18097">
+  <suite started-at="2022-06-22T14:02:59 CDT" name="scripts.CarvanaTest" finished-at="2022-06-22T14:03:45 CDT" duration-ms="45940">
     <groups>
     </groups>
-    <test started-at="2022-06-22T13:16:23 CDT" name="Command line test" finished-at="2022-06-22T13:16:41 CDT" duration-ms="18097">
+    <test started-at="2022-06-22T14:02:59 CDT" name="Command line test" finished-at="2022-06-22T14:03:45 CDT" duration-ms="45940">
       <class name="scripts.CarvanaTest">
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:23 CDT" name="setupPages" finished-at="2022-06-22T13:16:23 CDT" duration-ms="15" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local0>" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
-at utilities.Driver.getDriver(Driver.java:32)
-at pages.CarvanaHomePage.<init>(CarvanaHomePage.java:12)
-at scripts.CarvanaTest.setupPages(CarvanaTest.java:19)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:02:59 CDT" name="setupPages" finished-at="2022-06-22T14:03:01 CDT" duration-ms="1602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:23 CDT" name="setup" finished-at="2022-06-22T13:16:23 CDT" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local0>" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
-at utilities.Driver.getDriver(Driver.java:32)
-at scripts.Base.setup(Base.java:14)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:01 CDT" name="setup" finished-at="2022-06-22T14:03:04 CDT" duration-ms="2509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testTitleAndUrl()[pri:1, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:23 CDT" name="testTitleAndUrl" description="Validate Carvana home page title and url" finished-at="2022-06-22T13:16:23 CDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local0>" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
-at utilities.Driver.getDriver(Driver.java:32)
-at scripts.Base.setup(Base.java:14)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="testTitleAndUrl()[pri:1, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:04 CDT" name="testTitleAndUrl" description="Validate Carvana home page title and url" finished-at="2022-06-22T14:03:04 CDT" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTitleAndUrl -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:23 CDT" name="teardown" finished-at="2022-06-22T13:16:26 CDT" duration-ms="3002" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:04 CDT" name="teardown" finished-at="2022-06-22T14:03:07 CDT" duration-ms="3339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:26 CDT" name="setup" finished-at="2022-06-22T13:16:26 CDT" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local0>" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
-at utilities.Driver.getDriver(Driver.java:32)
-at scripts.Base.setup(Base.java:14)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:07 CDT" name="setup" finished-at="2022-06-22T14:03:10 CDT" duration-ms="3152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogo()[pri:2, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:26 CDT" name="testLogo" description="Validate the Carvana logo" finished-at="2022-06-22T13:16:26 CDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="testLogo()[pri:2, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:10 CDT" name="testLogo" description="Validate the Carvana logo" finished-at="2022-06-22T14:03:10 CDT" duration-ms="8" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local0>" is null]]>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAYCEES-YOGA', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
-at utilities.Driver.getDriver(Driver.java:32)
-at scripts.Base.setup(Base.java:14)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAYCEES-YOGA', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.isDisplayed(Unknown Source)
+at scripts.CarvanaTest.testLogo(CarvanaTest.java:35)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
@@ -282,89 +90,48 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:26 CDT" name="teardown" finished-at="2022-06-22T13:16:29 CDT" duration-ms="3002" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:10 CDT" name="teardown" finished-at="2022-06-22T14:03:14 CDT" duration-ms="3346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:29 CDT" name="setup" finished-at="2022-06-22T13:16:29 CDT" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local0>" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
-at utilities.Driver.getDriver(Driver.java:32)
-at scripts.Base.setup(Base.java:14)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:14 CDT" name="setup" finished-at="2022-06-22T14:03:17 CDT" duration-ms="3224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testMainNavSectionItems()[pri:3, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:29 CDT" name="testMainNavSectionItems" description="Validate the main navigation section items" finished-at="2022-06-22T13:16:29 CDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="testMainNavSectionItems()[pri:3, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:17 CDT" name="testMainNavSectionItems" description="Validate the main navigation section items" finished-at="2022-06-22T14:03:20 CDT" duration-ms="3007" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local0>" is null]]>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAYCEES-YOGA', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
-at utilities.Driver.getDriver(Driver.java:32)
-at scripts.Base.setup(Base.java:14)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAYCEES-YOGA', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+at jdk.proxy2/jdk.proxy2.$Proxy11.get(Unknown Source)
+at scripts.CarvanaTest.testMainNavSectionItems(CarvanaTest.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
@@ -398,89 +165,48 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMainNavSectionItems -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:29 CDT" name="teardown" finished-at="2022-06-22T13:16:32 CDT" duration-ms="3012" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:20 CDT" name="teardown" finished-at="2022-06-22T14:03:23 CDT" duration-ms="3350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:32 CDT" name="setup" finished-at="2022-06-22T13:16:32 CDT" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local0>" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
-at utilities.Driver.getDriver(Driver.java:32)
-at scripts.Base.setup(Base.java:14)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:23 CDT" name="setup" finished-at="2022-06-22T14:03:26 CDT" duration-ms="3323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSignInErrorMessage()[pri:4, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:32 CDT" name="testSignInErrorMessage" description="Validate the sign in error message" finished-at="2022-06-22T13:16:32 CDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="testSignInErrorMessage()[pri:4, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:26 CDT" name="testSignInErrorMessage" description="Validate the sign in error message" finished-at="2022-06-22T14:03:26 CDT" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local0>" is null]]>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAYCEES-YOGA', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
-at utilities.Driver.getDriver(Driver.java:32)
-at scripts.Base.setup(Base.java:14)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAYCEES-YOGA', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+at scripts.CarvanaTest.testSignInErrorMessage(CarvanaTest.java:52)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
@@ -514,89 +240,48 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignInErrorMessage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:32 CDT" name="teardown" finished-at="2022-06-22T13:16:35 CDT" duration-ms="3009" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:26 CDT" name="teardown" finished-at="2022-06-22T14:03:30 CDT" duration-ms="3371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:35 CDT" name="setup" finished-at="2022-06-22T13:16:35 CDT" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local0>" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
-at utilities.Driver.getDriver(Driver.java:32)
-at scripts.Base.setup(Base.java:14)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:30 CDT" name="setup" finished-at="2022-06-22T14:03:33 CDT" duration-ms="2902" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSearchFilterOptions()[pri:5, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:35 CDT" name="testSearchFilterOptions" description="Validate the search filter options and search button" finished-at="2022-06-22T13:16:35 CDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="testSearchFilterOptions()[pri:5, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:33 CDT" name="testSearchFilterOptions" description="Validate the search filter options and search button" finished-at="2022-06-22T14:03:33 CDT" duration-ms="1" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local0>" is null]]>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAYCEES-YOGA', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
-at utilities.Driver.getDriver(Driver.java:32)
-at scripts.Base.setup(Base.java:14)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAYCEES-YOGA', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+at scripts.CarvanaTest.testSearchFilterOptions(CarvanaTest.java:64)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
@@ -630,93 +315,48 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchFilterOptions -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:35 CDT" name="teardown" finished-at="2022-06-22T13:16:38 CDT" duration-ms="3002" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:33 CDT" name="teardown" finished-at="2022-06-22T14:03:36 CDT" duration-ms="3332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:38 CDT" name="setup" finished-at="2022-06-22T13:16:38 CDT" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local0>" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
-at utilities.Driver.getDriver(Driver.java:32)
-at scripts.Base.setup(Base.java:14)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:36 CDT" name="setup" finished-at="2022-06-22T14:03:39 CDT" duration-ms="2943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:38 CDT" name="teardown" finished-at="2022-06-22T13:16:41 CDT" duration-ms="3009" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="testSearchResultTiles()[pri:6, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T13:16:38 CDT" name="testSearchResultTiles" description="Validate the search result tiles" finished-at="2022-06-22T13:16:38 CDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="testSearchResultTiles()[pri:6, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:39 CDT" name="testSearchResultTiles" description="Validate the search result tiles" finished-at="2022-06-22T14:03:42 CDT" duration-ms="3015" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local0>" is null]]>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAYCEES-YOGA', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local0>" is null
-at utilities.Driver.getDriver(Driver.java:32)
-at scripts.Base.setup(Base.java:14)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAYCEES-YOGA', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+at scripts.CarvanaTest.testSearchResultTiles(CarvanaTest.java:82)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
@@ -750,10 +390,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchResultTiles -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.CarvanaTest@376b4233]" started-at="2022-06-22T14:03:42 CDT" name="teardown" finished-at="2022-06-22T14:03:45 CDT" duration-ms="3414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- scripts.CarvanaTest -->
     </test> <!-- Command line test -->
   </suite> <!-- scripts.CarvanaTest -->
